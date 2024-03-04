@@ -1,4 +1,14 @@
-const states = {
+export interface StateInterface {
+    name: string,
+    abbreviation: string,
+    capital: string,
+    incorporation_date: string,
+    timezone: string,
+    quality_of_pizza: number,
+    borders: string[] 
+}
+
+export const states = {
     "states": [
         {
             "name": "Alabama",
@@ -714,4 +724,3 @@ const states = {
         }
     ]
 }
-

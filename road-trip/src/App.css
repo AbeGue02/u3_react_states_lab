@@ -1,0 +1,46 @@
+ul {
+    padding-inline-start: 0;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1, p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.statesList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.state {
+    padding: 10px;
+    border-radius: 30px;
+    margin: 10px;
+    background-color: gray;
+    color: white;
+}
+
+.state:hover {
+    cursor: pointer;
+    background-color: darkgray;
+}
+
+.stateDetails {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px
+}
+
+.pizzaIcon {
+    display: inline;
+    width: 50px;
+}
